@@ -1,0 +1,13 @@
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+**/src/assets
+**/coverage
+**/templates/*.html
+*.scss
+*.json
+*.ico
+.angular
+karma.conf.js
+README.md
