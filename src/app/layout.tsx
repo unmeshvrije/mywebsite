@@ -1,0 +1,51 @@
+import type { Metadata } from "next";
+import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const jakarta = Plus_Jakarta_Sans({
+  variable: "--font-jakarta",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Unmesh Joshi — Software Engineer, AI Researcher, Poet",
+  description:
+    "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, mentor, and Marathi poet.",
+  metadataBase: new URL("https://unme.sh"),
+  openGraph: {
+    title: "Unmesh Joshi — Software Engineer, AI Researcher, Poet",
+    description:
+      "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, mentor, and Marathi poet.",
+    url: "https://unme.sh",
+    siteName: "Unmesh Joshi",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Unmesh Joshi — Software Engineer, AI Researcher, Poet",
+    description:
+      "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, mentor, and Marathi poet.",
+  },
+  robots: { index: true, follow: true },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${inter.variable} ${jakarta.variable} antialiased`}
+    >
+      <body className="min-h-screen flex flex-col">{children}</body>
+    </html>
+  );
+}
