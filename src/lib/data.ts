@@ -207,6 +207,13 @@ export const researchPapers = [
     pdfUrl:
       "/papers/ESWC_Ensemble_Based_Fact_Classification_with_Knowledge_Graph_Embeddings.pdf",
   },
+  {
+    title:
+      "On the Impact of Compression and Aggregation on Knowledge Graph Embeddings",
+    venue: "KG-NeSy 2026 (ISWC Workshops)",
+    venueUrl: "https://kg-nesy.github.io/",
+    pdfUrl: "/papers/KGNeSy_2026_Compression_Aggregation_KGE.pdf",
+  },
 ];
 
 export const blogPosts = [
@@ -250,7 +257,7 @@ export const podcastInfo = {
   title: "काव्यातले काही",
   titleRomanized: "KavyaTale Kahi",
   description:
-    "A Marathi poetry podcast exploring the beauty of Marathi literature, from classic to contemporary. Over 25 episodes of curated readings, reflections, and conversations about the poems that shape us.",
+    "A Marathi poetry podcast exploring the beauty of popular Hindi songs and their Marathi interpretation. Over 25 episodes of song histories, reflections, and interpretations about the songs that spoke to me.",
   spotifyEmbedUrl:
     "https://open.spotify.com/embed/show/4YS6PdHHnnrPaAukxuQI1g?utm_source=generator&theme=0",
 };

@@ -64,27 +64,42 @@ export default function Work() {
         <div className="space-y-4 max-w-4xl mx-auto">
           {researchPapers.map((paper) => (
             <ScrollReveal key={paper.title}>
-              <a
-                href={paper.pdfUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-start gap-4 rounded-xl bg-surface-800 border border-white/5 p-5 hover:border-primary-500/30 transition-colors"
-              >
+              {/* The PDF link stretches over the whole card, so the venue
+                  link can sit on top without nesting <a> tags. */}
+              <div className="group relative flex items-start gap-4 rounded-xl bg-surface-800 border border-white/5 p-5 hover:border-primary-500/30 transition-colors">
                 <FileText
                   size={20}
                   className="text-primary-400 mt-0.5 shrink-0"
                 />
                 <div className="flex-1 min-w-0">
-                  <p className="text-white font-medium leading-snug">
+                  <a
+                    href={paper.pdfUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white font-medium leading-snug after:absolute after:inset-0"
+                  >
                     {paper.title}
+                  </a>
+                  <p className="text-slate-500 text-sm mt-1">
+                    {"venueUrl" in paper && paper.venueUrl ? (
+                      <a
+                        href={paper.venueUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative z-10 underline underline-offset-2 hover:text-primary-400 transition-colors"
+                      >
+                        {paper.venue}
+                      </a>
+                    ) : (
+                      paper.venue
+                    )}
                   </p>
-                  <p className="text-slate-500 text-sm mt-1">{paper.venue}</p>
                 </div>
                 <ArrowUpRight
                   size={16}
                   className="text-slate-600 group-hover:text-primary-400 transition-colors shrink-0 mt-1"
                 />
-              </a>
+              </div>
             </ScrollReveal>
           ))}
         </div>
