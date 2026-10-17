@@ -11,6 +11,16 @@
   --font-sans: var(--font-inter);
   --font-display: var(--font-jakarta);
 
+  /* Warm palette and serif, used only by the /unyog page. */
+  --color-sand-50: #fbf7f1;
+  --color-sand-100: #f4ebdd;
+  --color-sand-200: #e9dac4;
+  --color-clay-500: #c8693f;
+  --color-clay-600: #ad532c;
+  --color-clay-700: #8c4122;
+  --color-ink: #2d231c;
+  --font-serif: var(--font-fraunces), Georgia, serif;
+
   --animate-fade-in: fade-in 0.6s ease-out both;
   --animate-slide-up: slide-up 0.6s ease-out both;
 
