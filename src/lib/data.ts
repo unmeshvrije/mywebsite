@@ -1,20 +1,20 @@
 export const workItems = [
   {
-    title: "Senior AI Engineer — Carv",
+    title: "Senior AI Engineer at Carv",
     period: "2025 – present",
     description:
       "Owned the Candidate Sourcing feature from research to customer delivery. Built with LangGraph, RAG, and LangSmith for implementation and tracing. Hands-on with A2A, skills-based agents. Designed and implemented bias/fairness testing for compliance.",
     tags: ["LLM", "RAG", "LangGraph", "A2A", "Agents"],
   },
   {
-    title: "Software Engineer — Crunchr",
+    title: "Software Engineer at Crunchr",
     period: "2020 – 2024",
     description:
       "Owned the user and group management feature end-to-end. Worked on external API design, built an LLM-based assistant for the people analytics product, and developed an in-house data connector with a custom ETL pipeline.",
     tags: ["Python", "API Design", "LLM", "ETL"],
   },
   {
-    title: "PhD Research — VU Amsterdam",
+    title: "PhD Research at VU Amsterdam",
     period: "2016 – present",
     description:
       "Research on Knowledge Graphs, query answering, and embedding-based link prediction at Vrije Universiteit Amsterdam.",
@@ -22,7 +22,7 @@ export const workItems = [
     scholarUrl: "https://scholar.google.com/citations?hl=en&user=FqcCMaoAAAAJ",
   },
   {
-    title: "Backend Engineering — Amazon",
+    title: "Backend Engineering at Amazon",
     period: "2013 – 2016",
     description:
       "Deployed server software in a large-scale distributed system (EBS). Performance benchmarking, root-cause analysis, data-replication bug fixes, and a data-migration protocol for server recovery.",
@@ -31,7 +31,7 @@ export const workItems = [
 ];
 
 export const teachingIntro =
-  "I teach the way I wish I had been taught — from first principles, with hand-drawn notes, live code, and analogies that stick. My courses run live online from Amsterdam for working engineers and students in India. Before that I designed and taught Python at the VU Amsterdam Summer School, built curriculum and taught at HackYourFuture for six years, and taught kids to code at Seattle CoderDojo.";
+  "I teach the way I wish I had been taught. I start from first principles. I use hand-drawn notes, live code and analogies that stick. My courses run live online from Amsterdam for working engineers and students in India. Before that I designed and taught Python at the VU Amsterdam Summer School, built curriculum and taught at HackYourFuture for six years, and taught kids to code at Seattle CoderDojo.";
 
 export const teachingStats = [
   { value: "22 / 23", label: "students would recommend my courses" },
@@ -48,7 +48,7 @@ export const courses = [
     schedule: "January – May",
     status: "2 batches completed",
     description:
-      "A chapter-by-chapter journey through the internals of UNIX — buffer cache, inodes, file system algorithms, fork/exec, scheduling and memory management — taught in Marathi. Every algorithm is paired with working C programs from W. Richard Stevens, so students see the kernel's ideas run on a real machine.",
+      "A chapter-by-chapter journey through the internals of UNIX. It covers the buffer cache, inodes, file system algorithms, fork/exec, scheduling and memory management. It is taught in Marathi. Every algorithm is paired with working C programs from W. Richard Stevens, so students see the kernel's ideas run on a real machine.",
     highlights: [
       "Hand-written PDF notes & audio recordings",
       "C programs (W. Richard Stevens)",
@@ -63,7 +63,7 @@ export const courses = [
     schedule: "September – December",
     status: "Batch 2 in progress",
     description:
-      "Builds AI from the ground up: calculus, linear algebra and probability; neurons and backpropagation; RNNs, LSTMs and CNNs; Transformers and deep reinforcement learning. Classic papers — Turing 1950, Word2Vec and more — give the history and the thinking behind each idea.",
+      "Builds AI from the ground up: calculus, linear algebra and probability; neurons and backpropagation; RNNs, LSTMs and CNNs; Transformers and deep reinforcement learning. Classic papers, such as Turing 1950 and Word2Vec, give the history and the thinking behind each idea.",
     highlights: [
       "Live coding (incl. a tiny autograd engine)",
       "Classic research papers",
@@ -78,7 +78,7 @@ export const courses = [
     schedule: "2019, 2020",
     status: "2 editions",
     description:
-      "Designed and taught the summer school's Python course for beginners and near-beginners — from lists, loops and functions to file I/O — ending with a project on real-world data. Taught as the official course lecturer for two editions.",
+      "Designed and taught the summer school's Python course for beginners. It goes from lists, loops and functions to file I/O. It ends with a project on real-world data. Taught as the official course lecturer for two editions.",
     highlights: ["Course design", "Python", "Beginner-friendly", "Real-world data project"],
     links: [
       {
@@ -94,7 +94,7 @@ export const courses = [
     schedule: "2016 – 2022",
     status: "6 years",
     description:
-      "Designed the Git & Command Line and Databases modules for HackYourFuture Amsterdam, and taught them to refugees and career-changers retraining as software developers — in Amsterdam and at the Brussels and Copenhagen chapters. Ran “How to teach” and mentorship workshops for volunteers in Belgium and Denmark, mentored students through tech interviews, and contributed to the Cloud Development curriculum.",
+      "Designed the Git & Command Line and Databases modules for HackYourFuture Amsterdam, and taught them to refugees and career-changers retraining as software developers, in Amsterdam and at the Brussels and Copenhagen chapters. Ran “How to teach” and mentorship workshops for volunteers in Belgium and Denmark, mentored students through tech interviews, and contributed to the Cloud Development curriculum.",
     highlights: [
       "Curriculum design",
       "Git & CLI",
@@ -115,7 +115,7 @@ export const courses = [
     schedule: "2014 – 2016",
     status: "Saturdays",
     description:
-      "Spent Saturdays teaching kids to program — starting with MIT's Scratch to build intuition for loops, events and logic, then moving on to Java.",
+      "Spent Saturdays teaching kids to program. We started with MIT's Scratch to build intuition for loops, events and logic. Then we moved on to Java.",
     highlights: ["Scratch", "Java", "Kids"],
   },
 ];
@@ -142,67 +142,67 @@ export const analogies = [
 export const testimonials = [
   {
     quote:
-      "Even though it was a one-way conversation, it kept me engaged. It never felt like you were sitting in Amsterdam teaching us — it always felt like you were right next to us. After the class ended, I felt that gap.",
-    course: "UNIX — Batch 1",
+      "Even though it was a one-way conversation, it kept me engaged. It never felt like you were sitting in Amsterdam teaching us. It always felt like you were right next to us. After the class ended, I felt that gap.",
+    course: "UNIX · Batch 1",
     featured: true,
   },
   {
     quote:
-      "The class helped me a lot. I just gave an interview at Semtech, they asked me about complete OS design — and I got placed there. Thank you very much!",
-    course: "UNIX — Batch 1",
+      "The class helped me a lot. I just gave an interview at Semtech, they asked me about complete OS design, and I got placed there. Thank you very much!",
+    course: "UNIX · Batch 1",
     translated: true,
   },
   {
     quote:
       "I got what I wanted, and that too in my mother tongue. I landed a UNIX job because of this class. I wanted to switch to UNIX somehow, and I'm glad I made it.",
-    course: "UNIX — Batch 2",
+    course: "UNIX · Batch 2",
   },
   {
     quote:
-      "A “one of a kind” course. Courses like this should exist — ones that actually open up the internals, the great minds and the thinking behind AI!",
-    course: "Course of AI — Batch 1",
+      "A “one of a kind” course. Courses like this should exist. Ones that actually open up the internals, the great minds and the thinking behind AI!",
+    course: "Course of AI · Batch 1",
   },
   {
     quote:
-      "Before the course I wasn't ready to believe in AI's magic. Now I'm sure AI is not magic — it is a technology made by magic people.",
-    course: "Course of AI — Batch 1",
+      "Before the course I wasn't ready to believe in AI's magic. Now I'm sure AI is not magic. It is a technology made by magic people.",
+    course: "Course of AI · Batch 1",
   },
   {
     quote:
       "It honestly felt more like learning from a friend than from a teacher. You made detailed notes, repeatedly asked if we understood, and tried your best to make sure everyone was following along.",
-    course: "UNIX — Batch 1",
+    course: "UNIX · Batch 1",
   },
   {
     quote:
-      "Very few teachers teach purely for the love of teaching — that's what I experienced here.",
-    course: "UNIX — Batch 2",
+      "Very few teachers teach purely for the love of teaching. That's what I experienced here.",
+    course: "UNIX · Batch 2",
     translated: true,
   },
   {
     quote:
-      "Learning the internals of the OS helped me understand Git and other tools. In engineering college I wondered how all this works — now the truth is being revealed.",
-    course: "UNIX — Batch 1",
+      "Learning the internals of the OS helped me understand Git and other tools. In engineering college I wondered how all this works. Now the truth is being revealed.",
+    course: "UNIX · Batch 1",
   },
   {
     quote:
-      "Even though the class was online, it never felt like it. Every question got an answer — and I understood the answer.",
-    course: "UNIX — Batch 1",
+      "Even though the class was online, it never felt like it. Every question got an answer, and I understood the answer.",
+    course: "UNIX · Batch 1",
     translated: true,
   },
   {
     quote:
-      "Your teaching is awesome — real-life examples, stories, jokes, truth, and the history behind Bach.",
-    course: "UNIX — Batch 2",
+      "Your teaching is awesome: real-life examples, stories, jokes, truth, and the history behind Bach.",
+    course: "UNIX · Batch 2",
   },
   {
     quote:
       "You give really genuine feedback, and I felt it in every session. No shame, no fear, just straight to the point.",
-    course: "UNIX — Batch 2",
+    course: "UNIX · Batch 2",
   },
   {
     quote:
       "Unmesh is a very excellent and smart teacher, and always available for feedback.",
-    course: "HackYourFuture — 2017",
+    course: "HackYourFuture · 2017",
   },
 ];
 
@@ -269,7 +269,7 @@ export const podcastInfo = {
   title: "काव्यातले काही",
   titleRomanized: "KavyaTale Kahi",
   description:
-    "A Marathi poetry podcast exploring the beauty of Marathi literature — from classic to contemporary. Over 25 episodes of curated readings, reflections, and conversations about the poems that shape us.",
+    "A Marathi poetry podcast exploring the beauty of Marathi literature, from classic to contemporary. Over 25 episodes of curated readings, reflections, and conversations about the poems that shape us.",
   spotifyEmbedUrl:
     "https://open.spotify.com/embed/show/4YS6PdHHnnrPaAukxuQI1g?utm_source=generator&theme=0",
 };
