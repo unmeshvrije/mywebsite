@@ -190,15 +190,10 @@ export const testimonials = [
 export const researchPapers = [
   {
     title:
-      "Rewrite or not Rewrite? ML-based Algorithm Selection for Datalog Query Answering on Knowledge Graphs",
-    venue: "ECAI 2020",
-    pdfUrl: "/papers/ecai_2020_magic_sets_QSQR.pdf",
-  },
-  {
-    title:
-      "Searching for Embeddings in a Haystack: Link Prediction on Knowledge Graphs with Subgraph Pruning",
-    venue: "WWW 2020",
-    pdfUrl: "/papers/WWW_subgraphs.pdf",
+      "On the Impact of Compression and Aggregation on Knowledge Graph Embeddings",
+    venue: "KG-NeSy 2026 (ISWC Workshops)",
+    venueUrl: "https://kg-nesy.github.io/",
+    pdfUrl: "/papers/KGNeSy_2026_Compression_Aggregation_KGE.pdf",
   },
   {
     title:
@@ -209,10 +204,15 @@ export const researchPapers = [
   },
   {
     title:
-      "On the Impact of Compression and Aggregation on Knowledge Graph Embeddings",
-    venue: "KG-NeSy 2026 (ISWC Workshops)",
-    venueUrl: "https://kg-nesy.github.io/",
-    pdfUrl: "/papers/KGNeSy_2026_Compression_Aggregation_KGE.pdf",
+      "Rewrite or not Rewrite? ML-based Algorithm Selection for Datalog Query Answering on Knowledge Graphs",
+    venue: "ECAI 2020",
+    pdfUrl: "/papers/ecai_2020_magic_sets_QSQR.pdf",
+  },
+  {
+    title:
+      "Searching for Embeddings in a Haystack: Link Prediction on Knowledge Graphs with Subgraph Pruning",
+    venue: "WWW 2020",
+    pdfUrl: "/papers/WWW_subgraphs.pdf",
   },
 ];
 
