@@ -11,7 +11,6 @@ import {
   teachingIntro,
   teachingStats,
   courses,
-  analogies,
   testimonials,
 } from "@/lib/data";
 import ScrollReveal from "./ScrollReveal";
@@ -112,28 +111,6 @@ export default function Teaching() {
               </ScrollReveal>
             );
           })}
-        </div>
-
-        {/* Analogies */}
-        <ScrollReveal>
-          <h3 className="font-display text-2xl font-bold text-white mt-20 mb-3 text-center">
-            Analogies that stick
-          </h3>
-          <p className="text-slate-500 text-center mb-8">
-            Students&apos; favourite analogies from the UNIX course
-          </p>
-        </ScrollReveal>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {analogies.map((a) => (
-            <ScrollReveal key={a.concept}>
-              <div className="rounded-xl bg-surface-800 border border-amber-500/10 p-6 h-full">
-                <code className="text-sm text-amber-400">{a.concept}</code>
-                <p className="text-lg text-white mt-3">{a.marathi}</p>
-                <p className="text-sm text-slate-400 mt-1">{a.english}</p>
-              </div>
-            </ScrollReveal>
-          ))}
         </div>
 
         {/* Testimonials */}

@@ -120,25 +120,6 @@ export const courses = [
   },
 ];
 
-// Favourite analogies, as voted by UNIX students in the end-of-course surveys
-export const analogies = [
-  {
-    concept: "fork()",
-    marathi: "बाळ जन्माला येणे",
-    english: "The birth of a baby",
-  },
-  {
-    concept: "Kernel vs User mode",
-    marathi: "अंधारी खोली vs प्रकाशमान खोली",
-    english: "A dark room vs a lit room",
-  },
-  {
-    concept: "Context switch",
-    marathi: "जादूची छडी हातात असणारा kernel",
-    english: "A kernel holding a magic wand over processes with stars on their heads",
-  },
-];
-
 export const testimonials = [
   {
     quote:
