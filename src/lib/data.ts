@@ -31,7 +31,7 @@ export const workItems = [
 ];
 
 export const teachingIntro =
-  "I teach the way I wish I had been taught. I start from first principles. I use hand-drawn notes, live code and analogies that stick. My courses run live online from Amsterdam for working engineers and students in India. Before that I designed and taught Python at the VU Amsterdam Summer School, built curriculum and taught at HackYourFuture for six years, and taught kids to code at Seattle CoderDojo.";
+  "I teach the way I was taught. I start from first principles. I use hand-drawn notes, live code and analogies that stick. My courses run live online for working engineers and students across the globe. I have designed and taught Python at the VU Amsterdam Summer School, built curriculum and taught at HackYourFuture for six years, and taught kids to code at Seattle CoderDojo.";
 
 export const teachingStats = [
   { value: "22 / 23", label: "students would recommend my courses" },
@@ -68,7 +68,7 @@ export const courses = [
       "Live coding (incl. a tiny autograd engine)",
       "Classic research papers",
       "Weekly quizzes",
-      "Notes & recordings for every session",
+      "Notes & (video) recordings for every session",
     ],
   },
   {
