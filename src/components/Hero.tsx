@@ -22,25 +22,25 @@ export default function Hero() {
           Unmesh Joshi
         </h1>
         <p className="text-primary-400 text-lg mb-6">
-          Software Engineer &middot; AI Researcher &middot; Poet
+          Software Engineer &middot; AI Researcher &middot; Teacher &middot; Poet
         </p>
 
         {/* Bio */}
         <p className="text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           I build intelligent software systems and research how AI can transform
           the way we write and understand code. Currently pursuing a PhD at VU
-          Amsterdam, I bring over a decade of backend engineering experience and
-          a passion for mentoring, teaching, and creative expression through
-          Marathi poetry.
+          Amsterdam, I bring over a decade of backend engineering experience.
+          I teach live courses on UNIX internals and the foundations of AI, and
+          find creative expression through Marathi poetry.
         </p>
 
         {/* CTAs */}
         <div className="flex gap-4 justify-center">
           <a
-            href="#work"
+            href="#teaching"
             className="px-6 py-3 rounded-lg bg-primary-500 text-white font-medium hover:bg-primary-600 transition-colors"
           >
-            View My Work
+            My Courses
           </a>
           <a
             href="#contact"

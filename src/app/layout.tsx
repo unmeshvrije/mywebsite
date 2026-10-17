@@ -13,14 +13,14 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Unmesh Joshi — Software Engineer, AI Researcher, Poet",
+  title: "Unmesh Joshi — Software Engineer, AI Researcher, Teacher, Poet",
   description:
-    "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, mentor, and Marathi poet.",
+    "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, teacher of UNIX internals and AI foundations, and Marathi poet.",
   metadataBase: new URL("https://unme.sh"),
   openGraph: {
-    title: "Unmesh Joshi — Software Engineer, AI Researcher, Poet",
+    title: "Unmesh Joshi — Software Engineer, AI Researcher, Teacher, Poet",
     description:
-      "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, mentor, and Marathi poet.",
+      "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, teacher of UNIX internals and AI foundations, and Marathi poet.",
     url: "https://unme.sh",
     siteName: "Unmesh Joshi",
     locale: "en_US",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Unmesh Joshi — Software Engineer, AI Researcher, Poet",
+    title: "Unmesh Joshi — Software Engineer, AI Researcher, Teacher, Poet",
     description:
-      "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, mentor, and Marathi poet.",
+      "Personal portfolio of Unmesh Joshi. Software engineer, AI researcher at VU Amsterdam, teacher of UNIX internals and AI foundations, and Marathi poet.",
   },
   robots: { index: true, follow: true },
 };

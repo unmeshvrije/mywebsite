@@ -49,16 +49,6 @@ export default function Work() {
                     Google Scholar <ArrowUpRight size={14} />
                   </a>
                 )}
-                {"url" in item && item.url && (
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 mt-4 text-sm text-primary-400 hover:text-white transition-colors"
-                  >
-                    hackyourfuture.net <ArrowUpRight size={14} />
-                  </a>
-                )}
               </div>
             </ScrollReveal>
           ))}

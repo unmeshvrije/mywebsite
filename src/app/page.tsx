@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Teaching from "@/components/Teaching";
 import Work from "@/components/Work";
 import Blogs from "@/components/Blogs";
 import Podcast from "@/components/Podcast";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <main className="flex-1">
         <Hero />
+        <Teaching />
         <Work />
         <Blogs />
         <Podcast />

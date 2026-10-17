@@ -28,13 +28,181 @@ export const workItems = [
       "Deployed server software in a large-scale distributed system (EBS). Performance benchmarking, root-cause analysis, data-replication bug fixes, and a data-migration protocol for server recovery.",
     tags: ["C++", "Distributed Systems", "AWS"],
   },
+];
+
+export const teachingIntro =
+  "I teach the way I wish I had been taught — from first principles, with hand-drawn notes, live code, and analogies that stick. My courses run live online from Amsterdam for working engineers and students in India. Before that I designed and taught Python at the VU Amsterdam Summer School, built curriculum and taught at HackYourFuture for six years, and taught kids to code at Seattle CoderDojo.";
+
+export const teachingStats = [
+  { value: "22 / 23", label: "students would recommend my courses" },
+  { value: "22 / 23", label: "rated the teaching pace “perfect”" },
+  { value: "4.7 / 5", label: "for live coding & demos (Course of AI)" },
+  { value: "6 yrs", label: "volunteer teaching at HackYourFuture" },
+];
+
+export const courses = [
   {
-    title: "Mentoring & Teaching — HackYourFuture",
-    period: "2016 – 2022",
+    icon: "terminal",
+    title: "The Design of the UNIX Operating System",
+    subtitle: "Based on Maurice J. Bach",
+    schedule: "January – May",
+    status: "2 batches completed",
     description:
-      "Volunteered for 6 years at HackYourFuture, teaching Git, command line, and databases to refugees. Delivered weekly lectures, mentored students for tech interviews, and recently contributed to the Cloud Development curriculum for new cohorts.",
-    tags: ["Git", "Databases", "CLI", "Cloud", "Mentoring"],
-    url: "https://www.hackyourfuture.net",
+      "A chapter-by-chapter journey through the internals of UNIX — buffer cache, inodes, file system algorithms, fork/exec, scheduling and memory management — taught in Marathi. Every algorithm is paired with working C programs from W. Richard Stevens, so students see the kernel's ideas run on a real machine.",
+    highlights: [
+      "Hand-written PDF notes & audio recordings",
+      "C programs (W. Richard Stevens)",
+      "Quizzes after every few chapters",
+      "Taught in Marathi",
+    ],
+  },
+  {
+    icon: "brain",
+    title: "Course of AI",
+    subtitle: "Foundations to modern deep learning",
+    schedule: "September – December",
+    status: "Batch 2 in progress",
+    description:
+      "Builds AI from the ground up: calculus, linear algebra and probability; neurons and backpropagation; RNNs, LSTMs and CNNs; Transformers and deep reinforcement learning. Classic papers — Turing 1950, Word2Vec and more — give the history and the thinking behind each idea.",
+    highlights: [
+      "Live coding (incl. a tiny autograd engine)",
+      "Classic research papers",
+      "Weekly quizzes",
+      "Notes & recordings for every session",
+    ],
+  },
+  {
+    icon: "code",
+    title: "Programming in Python",
+    subtitle: "VU Amsterdam Summer School",
+    schedule: "2019, 2020",
+    status: "2 editions",
+    description:
+      "Designed and taught the summer school's Python course for beginners and near-beginners — from lists, loops and functions to file I/O — ending with a project on real-world data. Taught as the official course lecturer for two editions.",
+    highlights: ["Course design", "Python", "Beginner-friendly", "Real-world data project"],
+    links: [
+      {
+        label: "2019 course listing",
+        url: "https://www.shorttermprograms.com/programs/2d6nz/programming-in-python",
+      },
+    ],
+  },
+  {
+    icon: "users",
+    title: "HackYourFuture",
+    subtitle: "Curriculum designer, teacher & mentor",
+    schedule: "2016 – 2022",
+    status: "6 years",
+    description:
+      "Designed the Git & Command Line and Databases modules for HackYourFuture Amsterdam, and taught them to refugees and career-changers retraining as software developers — in Amsterdam and at the Brussels and Copenhagen chapters. Ran “How to teach” and mentorship workshops for volunteers in Belgium and Denmark, mentored students through tech interviews, and contributed to the Cloud Development curriculum.",
+    highlights: [
+      "Curriculum design",
+      "Git & CLI",
+      "Databases",
+      "Teacher training",
+      "Interview mentoring",
+    ],
+    links: [
+      { label: "Databases module", url: "https://github.com/HackYourFuture/databases" },
+      { label: "Git module", url: "https://github.com/HackYourFuture/Git" },
+      { label: "Command Line module", url: "https://github.com/HackYourFuture/CommandLine" },
+    ],
+  },
+  {
+    icon: "blocks",
+    title: "Seattle CoderDojo",
+    subtitle: "Volunteer teacher for kids",
+    schedule: "2014 – 2016",
+    status: "Saturdays",
+    description:
+      "Spent Saturdays teaching kids to program — starting with MIT's Scratch to build intuition for loops, events and logic, then moving on to Java.",
+    highlights: ["Scratch", "Java", "Kids"],
+  },
+];
+
+// Favourite analogies, as voted by UNIX students in the end-of-course surveys
+export const analogies = [
+  {
+    concept: "fork()",
+    marathi: "बाळ जन्माला येणे",
+    english: "The birth of a baby",
+  },
+  {
+    concept: "Kernel vs User mode",
+    marathi: "अंधारी खोली vs प्रकाशमान खोली",
+    english: "A dark room vs a lit room",
+  },
+  {
+    concept: "Context switch",
+    marathi: "जादूची छडी हातात असणारा kernel",
+    english: "A kernel holding a magic wand over processes with stars on their heads",
+  },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Even though it was a one-way conversation, it kept me engaged. It never felt like you were sitting in Amsterdam teaching us — it always felt like you were right next to us. After the class ended, I felt that gap.",
+    course: "UNIX — Batch 1",
+    featured: true,
+  },
+  {
+    quote:
+      "The class helped me a lot. I just gave an interview at Semtech, they asked me about complete OS design — and I got placed there. Thank you very much!",
+    course: "UNIX — Batch 1",
+    translated: true,
+  },
+  {
+    quote:
+      "I got what I wanted, and that too in my mother tongue. I landed a UNIX job because of this class. I wanted to switch to UNIX somehow, and I'm glad I made it.",
+    course: "UNIX — Batch 2",
+  },
+  {
+    quote:
+      "A “one of a kind” course. Courses like this should exist — ones that actually open up the internals, the great minds and the thinking behind AI!",
+    course: "Course of AI — Batch 1",
+  },
+  {
+    quote:
+      "Before the course I wasn't ready to believe in AI's magic. Now I'm sure AI is not magic — it is a technology made by magic people.",
+    course: "Course of AI — Batch 1",
+  },
+  {
+    quote:
+      "It honestly felt more like learning from a friend than from a teacher. You made detailed notes, repeatedly asked if we understood, and tried your best to make sure everyone was following along.",
+    course: "UNIX — Batch 1",
+  },
+  {
+    quote:
+      "Very few teachers teach purely for the love of teaching — that's what I experienced here.",
+    course: "UNIX — Batch 2",
+    translated: true,
+  },
+  {
+    quote:
+      "Learning the internals of the OS helped me understand Git and other tools. In engineering college I wondered how all this works — now the truth is being revealed.",
+    course: "UNIX — Batch 1",
+  },
+  {
+    quote:
+      "Even though the class was online, it never felt like it. Every question got an answer — and I understood the answer.",
+    course: "UNIX — Batch 1",
+    translated: true,
+  },
+  {
+    quote:
+      "Your teaching is awesome — real-life examples, stories, jokes, truth, and the history behind Bach.",
+    course: "UNIX — Batch 2",
+  },
+  {
+    quote:
+      "You give really genuine feedback, and I felt it in every session. No shame, no fear, just straight to the point.",
+    course: "UNIX — Batch 2",
+  },
+  {
+    quote:
+      "Unmesh is a very excellent and smart teacher, and always available for feedback.",
+    course: "HackYourFuture — 2017",
   },
 ];
 
