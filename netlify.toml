@@ -2,6 +2,18 @@
   command = "npm run build"
   publish = "out"
 
+[[redirects]]
+  from = "/yoga"
+  to = "/unyog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/yoga/*"
+  to = "/unyog"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
