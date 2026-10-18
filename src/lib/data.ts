@@ -1,7 +1,7 @@
 export const workItems = [
   {
     title: "Senior AI Engineer at Carv",
-    period: "2025 – present",
+    period: "2025 – Aug 2026",
     description:
       "Owned the Candidate Sourcing feature from research to customer delivery. Built with LangGraph, RAG, and LangSmith for implementation and tracing. Hands-on with A2A, skills-based agents. Designed and implemented bias/fairness testing for compliance.",
     tags: ["LLM", "RAG", "LangGraph", "A2A", "Agents"],
@@ -14,10 +14,10 @@ export const workItems = [
     tags: ["Python", "API Design", "LLM", "ETL"],
   },
   {
-    title: "PhD Research at VU Amsterdam",
-    period: "2016 – present",
+    title: "PhD Candidate, VU Amsterdam (part time, alongside full time industry roles)",
+    period: "2016 – 2027 (expected)",
     description:
-      "Research on Knowledge Graphs, query answering, and embedding-based link prediction at Vrije Universiteit Amsterdam.",
+      "Research on Knowledge Graphs, query answering, and embedding-based link prediction at Vrije Universiteit Amsterdam. My final paper is under review, and I am now writing my thesis.",
     tags: ["Knowledge Graphs", "Embeddings", "Datalog", "ML"],
     scholarUrl: "https://scholar.google.com/citations?hl=en&user=FqcCMaoAAAAJ",
   },
@@ -123,12 +123,6 @@ export const courses = [
 export const testimonials = [
   {
     quote:
-      "Even though it was a one-way conversation, it kept me engaged. It never felt like you were sitting in Amsterdam teaching us. It always felt like you were right next to us. After the class ended, I felt that gap.",
-    course: "UNIX · Batch 1",
-    featured: true,
-  },
-  {
-    quote:
       "The class helped me a lot. I just gave an interview at Semtech, they asked me about complete OS design, and I got placed there. Thank you very much!",
     course: "UNIX · Batch 1",
     translated: true,
@@ -137,6 +131,12 @@ export const testimonials = [
     quote:
       "I got what I wanted, and that too in my mother tongue. I landed a UNIX job because of this class. I wanted to switch to UNIX somehow, and I'm glad I made it.",
     course: "UNIX · Batch 2",
+  },
+  {
+    quote:
+      "Even though it was a one-way conversation, it kept me engaged. It never felt like you were sitting in Amsterdam teaching us. It always felt like you were right next to us. After the class ended, I felt that gap.",
+    course: "UNIX · Batch 1",
+    featured: true,
   },
   {
     quote:

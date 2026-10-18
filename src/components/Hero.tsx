@@ -28,7 +28,7 @@ export default function Hero() {
         {/* Bio */}
         <p className="text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           I build intelligent software systems and research how AI can transform
-          the way we write and understand code. Currently pursuing a PhD at VU
+          the way we write and understand code. Currently completing my PhD at VU
           Amsterdam, I bring over a decade of backend engineering experience.
           I teach live courses on UNIX internals and the foundations of AI, and
           find creative expression through Marathi poetry.

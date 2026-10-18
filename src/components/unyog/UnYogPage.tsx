@@ -239,6 +239,8 @@ export default function UnYogPage() {
                   {c.about.paragraphs.map((p) => (
                     <p key={p}>{p}</p>
                   ))}
+                  {/* TODO(Unmesh): Add training lineage or certification here (EN and NL in src/lib/unyog.ts).
+                      Also mention business liability insurance later. */}
                 </div>
               </ScrollReveal>
             </div>
@@ -276,7 +278,7 @@ export default function UnYogPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      <Footer showUnYogLink={false} />
     </>
   );
 }

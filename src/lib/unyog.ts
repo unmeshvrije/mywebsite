@@ -64,7 +64,7 @@ export const unyogCopy = {
           photoAlt: "A large group in tree pose together on a beach",
         },
         {
-          title: "Droga Team Flow",
+          title: "Yog Team Flow",
           body: "Our festival format, brought to the office. A playful, themed session in pairs, with costumes and props, that breaks the usual hierarchy and gets a team laughing and moving together. The one people talk about afterwards.",
           details: ["90 minutes, up to 15 people", "650 euro, at your location"],
           photoAlt: "A festival session on the sand, with costumes and colourful props",
@@ -138,7 +138,7 @@ export const unyogCopy = {
           photoAlt: "Een grote groep samen in boomhouding op het strand",
         },
         {
-          title: "Droga Team Flow",
+          title: "Yog Team Flow",
           body: "Ons festivalformat, naar kantoor gebracht. Een speelse sessie in tweetallen, met een thema, kostuums en props, die de gebruikelijke hierarchie doorbreekt en een team samen laat lachen en bewegen. Waar men het daarna nog over heeft.",
           details: [
             "90 minuten, tot 15 personen",
